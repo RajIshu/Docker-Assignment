@@ -11,7 +11,7 @@ In This Assignment we have two containers as follows :
 
 ## Client
 - Create a volume by name ```clientvol```.
-- The client container will mount "clientvol" in ```/clientdata```.
+- The client container will mount ```clientvol``` in ```/clientdata```.
 - The client container runs an application that connects to the server, recieves the file that the server sends and saves it in "/clientdata".
 - Verify that the file is received properly at the clientside by verifying the checksum.
 - The client application again can be wriiten in any language that you are comfortable with, but the container should include all the necessary packages. Choose your base image wisely and install only necessary packages.
